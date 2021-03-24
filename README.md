@@ -6,6 +6,7 @@ The program simulates the behavior of an E911 system in the presence of a distri
 2. Average number of legitimate calls per hour (divide this by 3600 to get average calls per second)
 3. Average legitimate call service time, ts, in seconds (the reciprocal of this is 𝜆s for the service time exponential distribution).
 4. Number of bots.
+
 The program should output (to cout) the average total service time for a legitimate call (the time elapsed from when a legitimate call-placed event is removed from the event queue to the time that the matching service-ended event is dequeued 
 
 Design doc: [Program3_design.pdf](https://github.com/hlongn2469/E911-DDoS-Attacks/files/6200790/Program3_design.pdf)
